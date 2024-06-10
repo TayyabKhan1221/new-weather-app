@@ -4,14 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="shortcut icon" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <div class="header">
       <div class="logo">
         <img src="./imgs/cloud.png" alt="" />
-        <span><p>weather</p></span>
+        <span>
+          <p>weather</p>
+        </span>
       </div>
       <div class="search-box">
         <div class="search-box-icon">
@@ -28,10 +38,25 @@
     <div class="heading">Today Overview</div>
     <div class="current-weather-section">
       <div class="current-weather-card">
-        <img src="./imgs/04d.svg" alt="" />
+        <img class="weather-icon" src="./imgs/04d.svg" alt="" />
         <div class="temp">19.3°C</div>
-        <div class="cloud">Broken Clouds</div>
+        <div class="description">Broken Clouds</div>
         <div class="div"></div>
+        <div class="current-location">
+          <i class="fa-solid fa-location-dot"></i>
+          <div class="location-data">Istanbul</div>
+        </div>
+        <div class="current-date-container">
+          <i class="fa-solid fa-calendar-days"></i>
+          <div class="current-date">26 May sunday</div>
+        </div>
+      </div>
+    </div>
+    <div class="weather-details-left">
+      <div class="wind-seed-card">
+        <img src="./imgs/wind-speed-2842a89a.svg" alt="" />
+        <div class="wind-speed-title">Wind Speed</div>
+        <div class="wind-speed-date">km/h</div>
       </div>
     </div>
   </body>
